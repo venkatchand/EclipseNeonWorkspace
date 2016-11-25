@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Servlet Practise</title>
+<script type="text/javascript">
+function validateEmail()
+{
+// var x=documents.forms["myName"]["myEmail"].value;
+var x=document.getElementById("mymail").value;
+var at=x.indexOf("@");
+var dot=x.lastIndexOf(".");
+	if(3<=x.length || dot <=at+2 || at<1)
+		{
+		alert(dot);	
+// 		document.getElementById("mymail").value="vcv@vcv.com";
+		}
+	else
+		{
+		alert("enter valid id");
+		}
+	}
+</script>
+</head>
+<body>
+<form name="myName" method="post"  action="SendRedirectTest">
+hi hello welcome...
+your mail : <input id="mymail"type="text" name="MyEmail" value="mail"/><br/>
+your city : <input type="text" name="city"/>
+<br/>
+<input type="submit" value="Click ME Me"/>
+</form>
+
+
+</body>
+</html>

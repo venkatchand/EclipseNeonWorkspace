@@ -1,0 +1,100 @@
+1    [main] INFO  mail.Log4jTest  - logger initialized
+2    [main] DEBUG mail.Log4jTest  - hi
+2    [main] INFO  mail.Log4jTest  - hello
+0    [main] INFO  mail.Log4jTest  - logger initialized
+1    [main] DEBUG mail.Log4jTest  - hi
+1    [main] INFO  mail.Log4jTest  - hello
+0    [main] INFO  mail.Log4jTest  - logger initialized
+1    [main] DEBUG mail.Log4jTest  - hi
+1    [main] INFO  mail.Log4jTest  - hello
+0    [main] INFO  mail.Log4jTest  - logger initialized
+4    [main] DEBUG mail.Log4jTest  - hi
+4    [main] INFO  mail.Log4jTest  - hello
+2016-08-01 14:03:57,271 [main] INFO  mail.Log4jTest  - logger initialized
+2016-08-01 14:03:57,274 [main] DEBUG mail.Log4jTest  - hi
+2016-08-01 14:03:57,274 [main] INFO  mail.Log4jTest  - hello
+2016-08-01 14:48:07,743 [main] INFO  mail.Log4jTest  - Logger initialized......
+2016-08-01 14:59:13,044 [http-nio-8080-exec-11] INFO  mail.Log4jTest  - Logger initialized......
+2016-08-01 14:59:13,062 [http-nio-8080-exec-11] INFO  mail.Log4jTest  - DB property loaded
+2016-08-01 14:59:17,648 [http-nio-8080-exec-11] INFO  mail.Log4jTest  - DB connected..
+2016-08-01 14:59:17,652 [http-nio-8080-exec-11] INFO  mail.Log4jTest  - Username fectched from DB
+2016-08-01 14:59:17,652 [http-nio-8080-exec-11] INFO  mail.Log4jTest  - Username and password matched in DB
+2016-08-01 14:59:17,652 [http-nio-8080-exec-11] INFO  mail.Log4jTest  - User logged in....
+2016-08-01 14:59:43,938 [http-nio-8080-exec-13] INFO  mail.Log4jTest  - Logger initialized......
+2016-08-01 14:59:43,939 [http-nio-8080-exec-13] INFO  mail.Log4jTest  - DB property loaded
+2016-08-01 14:59:43,966 [http-nio-8080-exec-13] INFO  mail.Log4jTest  - DB connected..
+2016-08-01 14:59:43,969 [http-nio-8080-exec-13] INFO  mail.Log4jTest  - mails fectched from DB
+2016-08-01 14:59:46,450 [http-nio-8080-exec-9] INFO  mail.Log4jTest  - Logger initialized......
+2016-08-01 14:59:46,451 [http-nio-8080-exec-9] INFO  mail.Log4jTest  - DB property loaded
+2016-08-01 14:59:46,491 [http-nio-8080-exec-9] INFO  mail.Log4jTest  - DB connected..
+2016-08-01 14:59:46,492 [http-nio-8080-exec-9] INFO  mail.Log4jTest  - mails fectched from DB
+2016-08-01 14:59:51,256 [http-nio-8080-exec-3] INFO  mail.Log4jTest  - Logger initialized......
+2016-08-01 14:59:51,256 [http-nio-8080-exec-3] INFO  mail.Log4jTest  - DB property loaded
+2016-08-01 14:59:51,288 [http-nio-8080-exec-3] INFO  mail.Log4jTest  - DB connected..
+2016-08-01 14:59:51,289 [http-nio-8080-exec-3] INFO  mail.Log4jTest  - mails fectched from DB
+2016-08-01 14:59:55,820 [http-nio-8080-exec-4] INFO  mail.Log4jTest  - Logger initialized......
+2016-08-01 14:59:55,822 [http-nio-8080-exec-4] INFO  mail.Log4jTest  - DB property loaded
+2016-08-01 14:59:55,860 [http-nio-8080-exec-4] INFO  mail.Log4jTest  - DB connected..
+2016-08-01 14:59:55,861 [http-nio-8080-exec-4] INFO  mail.Log4jTest  - mails fectched from DB
+2016-08-01 14:59:56,578 [http-nio-8080-exec-14] INFO  mail.Log4jTest  - Logger initialized......
+2016-08-01 14:59:56,578 [http-nio-8080-exec-14] INFO  mail.Log4jTest  - DB property loaded
+2016-08-01 14:59:56,595 [http-nio-8080-exec-14] INFO  mail.Log4jTest  - DB connected..
+2016-08-01 14:59:56,596 [http-nio-8080-exec-14] INFO  mail.Log4jTest  - mails fectched from DB
+2016-08-01 15:01:00,875 [http-nio-8080-exec-10] INFO  mail.Log4jTest  - Logger initialized......
+2016-08-01 15:01:00,877 [http-nio-8080-exec-10] INFO  mail.Log4jTest  - DB property loaded
+2016-08-01 15:01:01,139 [http-nio-8080-exec-10] INFO  mail.Log4jTest  - DB connected..
+2016-08-01 15:01:01,143 [http-nio-8080-exec-10] INFO  mail.Log4jTest  - Username fectched from DB
+2016-08-01 15:01:01,143 [http-nio-8080-exec-10] INFO  mail.Log4jTest  - Username and password matched in DB
+2016-08-01 15:01:01,143 [http-nio-8080-exec-10] INFO  mail.Log4jTest  - User logged in....
+01 Aug 2016 15:03:03 [http-nio-8080-exec-20] INFO  mail.Log4jTest  - Logger initialized......
+01 Aug 2016 15:03:03 [http-nio-8080-exec-20] INFO  mail.Log4jTest  - DB property loaded
+01 Aug 2016 15:03:03 [http-nio-8080-exec-20] INFO  mail.Log4jTest  - DB connected..
+01 Aug 2016 15:03:03 [http-nio-8080-exec-20] INFO  mail.Log4jTest  - mails fectched from DB
+01 Aug 2016 15:03:07 [http-nio-8080-exec-21] INFO  mail.Log4jTest  - Logger initialized......
+01 Aug 2016 15:03:07 [http-nio-8080-exec-21] INFO  mail.Log4jTest  - DB property loaded
+01 Aug 2016 15:03:07 [http-nio-8080-exec-21] INFO  mail.Log4jTest  - DB connected..
+01 Aug 2016 15:03:07 [http-nio-8080-exec-21] INFO  mail.Log4jTest  - mails fectched from DB
+01 Aug 2016 15:03:09 [http-nio-8080-exec-22] INFO  mail.Log4jTest  - Logger initialized......
+01 Aug 2016 15:03:09 [http-nio-8080-exec-22] INFO  mail.Log4jTest  - DB property loaded
+01 Aug 2016 15:03:09 [http-nio-8080-exec-22] INFO  mail.Log4jTest  - DB connected..
+01 Aug 2016 15:03:09 [http-nio-8080-exec-22] INFO  mail.Log4jTest  - mails fectched from DB
+01 Aug 2016 15:05:56 [http-nio-8080-exec-21] INFO  mail.Log4jTest  - Logger initialized......
+01 Aug 2016 15:05:56 [http-nio-8080-exec-21] INFO  mail.Log4jTest  - User Entered Username : 'v' and Password : 'v'
+01 Aug 2016 15:05:56 [http-nio-8080-exec-21] INFO  mail.Log4jTest  - Logger initialized......
+01 Aug 2016 15:05:56 [http-nio-8080-exec-21] INFO  mail.Log4jTest  - DB property loaded
+01 Aug 2016 15:05:57 [http-nio-8080-exec-21] INFO  mail.Log4jTest  - DB connected..
+01 Aug 2016 15:05:57 [http-nio-8080-exec-21] INFO  mail.Log4jTest  - Username fectched from DB
+01 Aug 2016 15:05:57 [http-nio-8080-exec-21] INFO  mail.Log4jTest  - Username and password matched in DB
+01 Aug 2016 15:05:57 [http-nio-8080-exec-21] INFO  mail.Log4jTest  - User logged in....
+01 Aug 2016 18:10:23 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - Logger initialized......
+01 Aug 2016 18:10:23 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - User Entered Username : 'v' and Password : 'v'
+01 Aug 2016 18:10:23 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - DB property loaded
+01 Aug 2016 18:10:27 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - DB connected..
+01 Aug 2016 18:10:28 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - Username fectched from DB
+01 Aug 2016 18:10:28 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - Username and password matched in DB
+01 Aug 2016 18:10:28 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - User logged in....
+01 Aug 2016 18:10:34 [http-nio-8080-exec-7] INFO  mail.Log4jTest  - DB property loaded
+01 Aug 2016 18:10:34 [http-nio-8080-exec-7] INFO  mail.Log4jTest  - DB connected..
+01 Aug 2016 18:10:34 [http-nio-8080-exec-7] INFO  mail.Log4jTest  - mails fectched from DB
+01 Aug 2016 18:10:35 [http-nio-8080-exec-8] INFO  mail.Log4jTest  - DB property loaded
+01 Aug 2016 18:10:35 [http-nio-8080-exec-8] INFO  mail.Log4jTest  - DB connected..
+01 Aug 2016 18:10:35 [http-nio-8080-exec-8] INFO  mail.Log4jTest  - mails fectched from DB
+01 Aug 2016 18:10:36 [http-nio-8080-exec-9] INFO  mail.Log4jTest  - DB property loaded
+01 Aug 2016 18:10:36 [http-nio-8080-exec-9] INFO  mail.Log4jTest  - DB connected..
+01 Aug 2016 18:10:36 [http-nio-8080-exec-9] INFO  mail.Log4jTest  - mails fectched from DB
+03 Aug 2016 11:56:29 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - Logger initialized......
+03 Aug 2016 11:56:30 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - User Entered Username : 'v' and Password : 'v'
+03 Aug 2016 11:56:30 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - DB property loaded
+03 Aug 2016 11:56:30 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - DB connected..
+03 Aug 2016 11:56:30 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - Username fectched from DB
+03 Aug 2016 11:56:30 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - Username and password matched in DB
+03 Aug 2016 11:56:30 [http-nio-8080-exec-5] INFO  mail.Log4jTest  - User logged in....
+03 Aug 2016 11:56:33 [http-nio-8080-exec-8] INFO  mail.Log4jTest  - DB property loaded
+03 Aug 2016 11:56:33 [http-nio-8080-exec-8] INFO  mail.Log4jTest  - DB connected..
+03 Aug 2016 11:56:33 [http-nio-8080-exec-8] INFO  mail.Log4jTest  - mails fectched from DB
+03 Aug 2016 11:56:34 [http-nio-8080-exec-9] INFO  mail.Log4jTest  - DB property loaded
+03 Aug 2016 11:56:34 [http-nio-8080-exec-9] INFO  mail.Log4jTest  - DB connected..
+03 Aug 2016 11:56:34 [http-nio-8080-exec-9] INFO  mail.Log4jTest  - mails fectched from DB
+03 Aug 2016 11:56:34 [http-nio-8080-exec-10] INFO  mail.Log4jTest  - DB property loaded
+03 Aug 2016 11:56:34 [http-nio-8080-exec-10] INFO  mail.Log4jTest  - DB connected..
+03 Aug 2016 11:56:34 [http-nio-8080-exec-10] INFO  mail.Log4jTest  - mails fectched from DB

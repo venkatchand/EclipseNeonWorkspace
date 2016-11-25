@@ -45,3 +45,45 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.index
+*.cfs
+*.history
+*.del
+*.launch
+*.prefs
+*.dat
+*.version
+.metadata
+.recommenders
+
+
+*.pydevproject
+.project
+.metadata
+.metadata/.mylyn
+.metadata/.plugins
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+#server files
+Servers

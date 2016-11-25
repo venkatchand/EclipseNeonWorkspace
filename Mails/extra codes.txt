@@ -1,0 +1,53 @@
+<%
+	
+		Map<Integer,Map> getMails=db.getMailsFromDB();
+	%>
+
+
+<center>
+<table border="1">
+	<tr bgcolor="#FF0000">
+		<th>From Address</th>
+		<th>Message Date</th>
+		<th>Message Subject</th>
+		<th>Message Body</th>
+	</tr>
+	<% 
+	
+	for(Integer i : getMails.keySet())
+	{
+		Map<String,String> mails=getMails.get(i);
+		
+		String fromAddress=mails.get("fromAddress");
+		String messageDate=mails.get("messageDate");
+		String messageSubject=mails.get("messageSubject");
+		String messageBody=mails.get("messageBody");
+		%>
+		<tr>
+		<td>
+			<center>
+			<% out.print(fromAddress); %>
+			</center>
+		</td>	
+		<td>
+			<center>
+			<% out.print(messageDate); %>
+			</center>
+		</td>	
+		<td>
+			<center>
+			<% out.print(messageSubject); %>
+			</center>
+		</td>	
+		<td>
+			<center>
+			<% out.print(messageBody); %>
+			</center>
+		</td>
+		</tr>	
+		<%
+		System.out.println(fromAddress+" "+messageDate+" "+messageSubject+" "+messageBody);	
+	}
+	%>
+</table>
+</center>
