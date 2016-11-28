@@ -1,10 +1,16 @@
 package com.java.test;
 
+import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Writer;
+
+import javafx.scene.chart.BubbleChart;
 
 public class DiffObjectCreation implements Cloneable {
 	
@@ -33,21 +39,30 @@ public class DiffObjectCreation implements Cloneable {
 		DiffObjectCreation diffClassLoader=(DiffObjectCreation) DiffObjectCreation.class.getClassLoader().loadClass("com.java.test.DiffObjectCreation").newInstance();
 		diffClassLoader.display("4.	This is from Class loder...");
 		
-//		Creating Object from Objectinputstream
-		DiffObjectCreation diffInputStream=null;
-		FileOutputStream fout=new FileOutputStream("F:/EclipseNeonWorkspace/JavaTest/Testing.txt");
-		byte b=123;
-		fout.write(b);
-		fout.flush();
-		fout.close();
-		FileInputStream fin=new FileInputStream("F:/EclipseNeonWorkspace/JavaTest/Testing.txt");
-		ObjectInputStream obj=new ObjectInputStream(fin);
-		diffInputStream=(DiffObjectCreation) obj.readObject();
-//		diffInputStream.display("This is from object stream...");
-		
-		fin.close();
-		obj.close();
-		
+////		Creating Object from Objectinputstream
+//		DiffObjectCreation diffInputStream=null;
+//		FileOutputStream fout = null;
+//		try{
+//			
+//			fout=new FileOutputStream("F:/EclipseNeonWorkspace/JavaTest/Testing.txt");
+//			ObjectOutputStream objOut= new ObjectOutputStream(fout); 
+//			
+//			objOut.writeObject(dffClassForName);
+//			objOut.flush();
+//		}
+//		finally{
+//			fout.flush();
+//			fout.close();
+//			
+//		}
+//		FileInputStream fin=new FileInputStream("F:/EclipseNeonWorkspace/JavaTest/Testing.txt");
+//		ObjectInputStream obj=new ObjectInputStream(fin);
+//		diffInputStream=(DiffObjectCreation) obj.readObject();
+////		diffInputStream.display("This is from object stream...");
+//		
+//		fin.close();
+//		
+//		obj.close();
 		
 	}
 }
