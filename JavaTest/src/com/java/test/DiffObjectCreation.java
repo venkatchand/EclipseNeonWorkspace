@@ -1,16 +1,6 @@
 package com.java.test;
 
-import java.io.BufferedWriter;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Writer;
-
-import javafx.scene.chart.BubbleChart;
 
 public class DiffObjectCreation implements Cloneable {
 	
