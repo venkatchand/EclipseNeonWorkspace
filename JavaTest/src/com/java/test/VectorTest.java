@@ -4,19 +4,17 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.*;
 
-public  class CopyMe   
+public  class VectorTest   
 {
 	 
 		
 	public static void main(String args[])
-	{
-		 System.out.println("copy me");
-		 int a[]={1,2,3,4};
-		 
+	{	 
 		 Vector vv= new Vector(5);
 		 vv.add("123");
 		 vv.add(123);
 		 vv.add(12.34536);
+		 vv.add('A');
 		 
 		 Enumeration enim=vv.elements();
 		 
